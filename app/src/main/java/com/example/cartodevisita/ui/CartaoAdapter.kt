@@ -33,6 +33,7 @@ class CartaoAdapter :
             binding.tvNome.text = item.nome
             binding.tvTelefone.text = item.telefone.toString()
             binding.tvEmail.text = item.email
+            binding.tvNomeEmpresa.text = item.empresa
             binding.mcvContent.setCardBackgroundColor(Color.parseColor(item.background))
             binding.mcvContent.setOnClickListener {
                 listenerShare(it)
